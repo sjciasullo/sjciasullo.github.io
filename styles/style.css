@@ -1,5 +1,23 @@
-h1{
+#construction{
   text-align: center;
   padding: 100px;
   font-size: 50px;
+}
+
+/* end construction */
+
+header{
+  text-align: center;
+}
+
+h1:not(#construction){
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
 }
