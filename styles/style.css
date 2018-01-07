@@ -6,11 +6,16 @@ header{
   background-repeat: no-repeat;
 }
 
-h1{
+#title-container{
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  padding: 10px;
 }
 
 nav{
