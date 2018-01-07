@@ -3,9 +3,10 @@ header{
   background-image: url('../assets/space-world.jpg');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
-h1:not(#construction){
+h1{
   height: 300px;
   display: flex;
   justify-content: center;
