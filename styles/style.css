@@ -1,3 +1,4 @@
+/* ----------- header -----------*/
 header{
   text-align: center;
   background-image: url('../assets/space-world.jpg');
@@ -33,7 +34,9 @@ a, a:visited{
 a:hover{
   color: #BBB;
 }
+/* ----------- end header -----------*/
 
+/* ----------- sections -----------*/
 .section-title{
   height: 80px;
   background: rgb(231, 232, 247);
@@ -44,3 +47,24 @@ a:hover{
   justify-content: center;
   align-items: center;
 }
+
+.section-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* -- who am i --*/
+#headshot{
+  width: 150px;
+  height: 150px;
+  background-image: url('../assets/headshot.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+  border: solid 2px white;
+}
+/* -- end who am i --*/
+
+
+/* ----------- end sections -----------*/
