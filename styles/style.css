@@ -16,6 +16,17 @@ h1{
 nav{
   display: flex;
   justify-content: space-around;
+  padding: 14px;
+  background: rgba(0,0,0,.4)
+}
+
+a, a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: #BBB;
 }
 
 .section-title{
