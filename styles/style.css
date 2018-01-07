@@ -68,5 +68,24 @@ a:hover{
 }
 /* -- end who am i --*/
 
+/* -- projects -- */
+.project-pic{
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 180px;
+  border: solid 5px #555;
+  border-radius: 2px;
+}
+
+.project-pic:hover{
+  border-color: rgba(228, 3, 3, 0.849);
+}
+
+#fetris{
+  background-image: url('../assets/fetris.png');
+  
+}
+/* -- end projects -- */
 
 /* ----------- end sections -----------*/
