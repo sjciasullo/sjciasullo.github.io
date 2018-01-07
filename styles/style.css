@@ -69,6 +69,11 @@ a:hover{
 /* -- end who am i --*/
 
 /* -- projects -- */
+.project-single{
+  display: flex;
+  align-items: center;
+}
+
 .project-pic{
   background-position: center;
   background-size: cover;
@@ -78,13 +83,25 @@ a:hover{
   border-radius: 2px;
 }
 
+.project-description{
+  padding: 30px;
+  text-align: center;
+}
+
 .project-pic:hover{
   border-color: rgba(228, 3, 3, 0.849);
 }
 
+.github-link{
+  color: #555;
+}
+
+.github-link:hover{
+  color: rgba(228, 3, 3, 0.849);
+}
+
 #fetris{
   background-image: url('../assets/fetris.png');
-  
 }
 /* -- end projects -- */
 
