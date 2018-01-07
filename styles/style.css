@@ -8,10 +8,13 @@
 
 header{
   text-align: center;
+  background-image: url('../assets/space-world.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 h1:not(#construction){
-  height: 100px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
