@@ -72,6 +72,7 @@ a:hover{
 .project-single{
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 
 .project-pic{
@@ -86,9 +87,10 @@ a:hover{
 .project-description{
   padding: 30px;
   text-align: center;
+  width: 350px;
 }
 
-.project-pic:hover{
+.project-pic:hover:not(#heart){
   border-color: rgba(228, 3, 3, 0.849);
 }
 
@@ -102,6 +104,14 @@ a:hover{
 
 #fetris{
   background-image: url('../assets/fetris.png');
+}
+
+#recipea{
+  background-image: url('../assets/recipea2.0.png');
+}
+
+#heart{
+  background-image: url('../assets/heart.png');
 }
 /* -- end projects -- */
 
