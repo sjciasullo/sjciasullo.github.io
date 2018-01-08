@@ -38,7 +38,7 @@ a:hover{
 
 /* ----------- sections -----------*/
 .section-title{
-  height: 80px;
+  min-height: 80px;
   background: rgb(231, 232, 247);
   border-top: 1px solid #CCC;
   border-bottom: 1px solid #CCC;
