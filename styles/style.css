@@ -116,11 +116,19 @@ a:hover{
 /* -- end projects -- */
 
 /* -- contact -- */
-#contact{
+#contact-section{
+  flex-direction: column;
+}
+
+#contact-link-container{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+#contact-link-container a{
+  padding: 5px 15px 0px 15px;
 }
 
 .contact-link{
