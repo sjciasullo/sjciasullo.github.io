@@ -66,6 +66,10 @@ a:hover{
   border: solid 2px white;
   margin-bottom: 20px;
 }
+
+#whoami .section-content{
+  padding: 30px 50px 30px 50px;
+}
 /* -- end who am i --*/
 
 /* -- projects -- */
