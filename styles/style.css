@@ -19,6 +19,14 @@ h1{
   padding: 10px;
 }
 
+#name{
+  font-size: 50px;
+}
+
+#title{
+  font-size: 20px;
+}
+
 nav{
   display: flex;
   justify-content: space-around;
