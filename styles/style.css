@@ -116,12 +116,19 @@ a:hover{
 /* -- end projects -- */
 
 /* -- contact -- */
+#contact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .contact-link{
   color: #555;
 }
 
-img{
-  width: 80px;
+.contact-link:hover{
+  color: #BBB;
 }
 /* -- end contact -- */
 /* ----------- end sections -----------*/
