@@ -115,4 +115,13 @@ a:hover{
 }
 /* -- end projects -- */
 
+/* -- contact -- */
+.contact-link{
+  color: #555;
+}
+
+img{
+  width: 80px;
+}
+/* -- end contact -- */
 /* ----------- end sections -----------*/
