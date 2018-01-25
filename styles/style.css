@@ -1,5 +1,5 @@
 body{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 /* ----------- header -----------*/
@@ -9,6 +9,7 @@ header{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  font-weight: bold;
 }
 
 #title-container{
@@ -24,7 +25,9 @@ h1{
 }
 
 #name{
-  font-size: 50px;
+  font-size: 60px;
+  text-shadow: 2px 2px 5px #888;
+  letter-spacing: .1em;
 }
 
 #title{
@@ -41,11 +44,14 @@ nav{
 a, a:visited{
   text-decoration: none;
   color: white;
+  transition: .05s;
 }
 
 a:hover{
   color: #BBB;
+  transition: .3s;
 }
+
 /* ----------- end header -----------*/
 
 /* ----------- sections -----------*/
@@ -81,6 +87,7 @@ a:hover{
 
 #whoami .section-content{
   padding: 30px 50px 30px 50px;
+  line-height: 20px;
 }
 /* -- end who am i --*/
 
@@ -116,6 +123,7 @@ a:hover{
 
 .github-link:hover{
   color: rgba(228, 3, 3, 0.849);
+  transition: .3s;
 }
 
 #fetris{
@@ -149,10 +157,12 @@ a:hover{
 
 .contact-link{
   color: #555;
+  transition: .05s;
 }
 
 .contact-link:hover{
   color: #BBB;
+  transition: .3s;
 }
 /* -- end contact -- */
 /* ----------- end sections -----------*/
