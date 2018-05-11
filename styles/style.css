@@ -41,6 +41,10 @@ nav{
   background: rgba(0,0,0,.4)
 }
 
+nav div {
+  min-width: 100px;
+}
+
 a, a:visited{
   text-decoration: none;
   color: white;
